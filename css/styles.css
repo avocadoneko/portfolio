@@ -291,6 +291,12 @@
     font-weight: bold;
     margin: 0 auto;
     margin-top: 44px; }
+  .works__sub-title-2 {
+    color: #4D4D5C;
+    font-size: 2.0rem;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 32px; }
   .works__skill-list {
     margin-top: 32px; }
   .works__skill-item {
