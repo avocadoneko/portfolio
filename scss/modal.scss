@@ -1,0 +1,61 @@
+@import 'variables';
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+
+  &__content {
+    background-color: $sub-color;
+    width: auto;
+    height: 400px;
+    margin: 20% 32px;
+    border-radius: 26px;
+  }
+
+  &__close-btn {
+    height: 44px;
+  }
+
+  &__close-btn a {
+    font-size: 3.2rem;
+    float: right;
+    vertical-align: bottom;
+    margin-top: 16px;
+    margin-right: 28px;
+    cursor: pointer;
+    cursor: hand;
+  }
+
+  &__body {
+    margin: 0 auto;
+    height: 320px;
+    position: relative;
+  }
+
+  &__list {
+    text-align: center;
+    margin: 0 auto;
+    left: 20%;
+    right: 20%;
+    position: absolute;
+  }
+
+  &__link {
+    text-align: center;
+    margin-top: 48px;
+  }
+
+  &__link a {
+    font-size: 3.2rem;
+    font-family: 'Moon 2.0';
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+}

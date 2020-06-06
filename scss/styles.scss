@@ -1,0 +1,17 @@
+@import 'footer';
+@import 'header-nav';
+@import 'modal';
+@import 'main-item';
+@import 'variables';
+@import 'works';
+
+html {
+  font-family: "Hiragino Kaku Gothic ProN", "M PLUS 1p";
+  font-size: 62.5%;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.4rem;
+}
