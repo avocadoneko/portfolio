@@ -48,7 +48,7 @@
     height: 61px; }
   .header-nav__home a {
     font-size: 24px;
-    font-family: 'Moon 2.0', "M PLUS 1p", 'arial black';
+    font-family: 'Moon';
     font-weight: bold;
     letter-spacing: 2px; }
   .header-nav__list {
@@ -129,7 +129,7 @@
     margin-top: 48px; }
   .modal__link a {
     font-size: 3.2rem;
-    font-family: 'Moon 2.0', "M PLUS 1p", 'arial black';
+    font-family: 'Moon';
     font-weight: bold;
     letter-spacing: 2px; }
 
@@ -147,7 +147,7 @@
       margin-top: 96px; } }
   .main-item__title {
     margin-top: 96px;
-    font-family: 'Moon 2.0', "M PLUS 1p", 'arial black';
+    font-family: 'Moon';
     font-style: normal;
     font-weight: bold;
     font-size: 5.6rem;
@@ -326,6 +326,9 @@
       .works__pdf-link {
         display: block; } }
 
+@font-face {
+  font-family: 'Moon';
+  src: url("../fonts/font-moon.woff") format("woff"); }
 html {
   font-family: "Hiragino Kaku Gothic ProN", "M PLUS 1p";
   font-size: 62.5%;

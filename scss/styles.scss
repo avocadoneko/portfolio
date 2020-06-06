@@ -5,6 +5,11 @@
 @import 'variables';
 @import 'works';
 
+@font-face{
+  font-family: 'Moon';
+  src: url('../fonts/font-moon.woff') format('woff');
+}
+
 html {
   font-family: "Hiragino Kaku Gothic ProN", "M PLUS 1p";
   font-size: 62.5%;
