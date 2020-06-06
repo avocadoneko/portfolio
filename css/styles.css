@@ -172,7 +172,6 @@
       .main-item__text-container {
         margin: 32px 32px 0; } }
   .main-item__text {
-    font-size: 1.4rem;
     line-height: 21px;
     color: #4D4D5C; }
   @media screen and (max-width: 640px) {
@@ -251,7 +250,8 @@
     margin-top: 15px; }
   .main-item__works-title {
     margin-top: 8px;
-    color: #4D4D5C; }
+    color: #4D4D5C;
+    font-size: 1.4rem; }
 
 .works {
   margin: 0 10%; }
@@ -342,6 +342,6 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-size: 1.4rem; }
+  font-size: 1.6rem; }
 
 /*# sourceMappingURL=styles.css.map */
