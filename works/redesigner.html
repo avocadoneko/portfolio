@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/destyle.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header-nav">
+      <ul class="header-nav__home-container">
+        <li class="header-nav__home">
+          <a href="../index.html">avocadoneko</a>
+        </li>
+      </ul>
+      <ul class="header-nav__list">
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#About">About</a>
+        </li>
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#Works">Works</a>
+        </li>
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#Contact">Contact</a>
+        </li>
+        <li class="header-nav__mobile">
+          <a id="menu-btn" class="header-nav__item-link">Menu</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div id="modal" class="modal">
+    <div class="modal__content">
+      <div class="modal__close-btn">
+        <a id="modal-close-btn">×</a>
+      </div>
+      <div class="modal__body">
+        <ul class="modal__list">
+          <li class="modal__link">
+            <a id="about" href="../index.html#About">About</a>
+          </li>
+          <li class="modal__link">
+            <a id="works" href="../index.html#Works">Works</a>
+          </li>
+          <li class="modal__link">
+            <a id="contact" href="../index.html#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="works">
+    <h2 class="works__title">Redesigner for students UI Challenge 作品一覧</h2>
+    <ul class="works__skill-list">
+      <li class="works__skill-item">
+        <span>UI</span>
+      </li>
+      <li class="works__skill-item">
+        <span>UX</span>
+      </li>
+      <li class="works__skill-item">
+        <span>Figma</span>
+      </li>
+    </ul>
+    <div class="works__container">
+      <h3 class="works__sub-title">#1 Sign Up</h3>
+      <div class="works__img-container">
+        <img class="works__large-img" src="../images/redesigner_1-img.png">
+      </div>
+      <h4 class="works__sub-title-2">つくったもの</h4>
+      <p class="works__text">キャンプ場探しアプリの新規登録画面</p>
+
+      <h4 class="works__sub-title-2">工夫したところ</h4>
+      <p class="works__text">・1画面1項目だと入力項目が少ないように感じるためユーザーの離脱率が下がる</p>
+      <p class="works__text">・「次へ」「登録する」ボタンを大きくすることで、スマートフォンなどの小さい画面でのタップミスを防げる</p>
+      <p class="works__text">・アプリを初めてインストールしたユーザーは新規会員が多いので、ログインより新しいアカウント作成を目立たせた</p>
+      <p class="works__text">・利用規約、個人情報の取扱の文字は小さくて細いので、他で使っている緑より明度を下げた</p>
+    </div>
+
+    <div class="works__container">
+      <h3 class="works__sub-title">#2 Music Player</h3>
+      <div class="works__img-container">
+        <img class="works__large-img" src="../images/redesigner_2-img.png">
+      </div>
+      <h4 class="works__sub-title-2">つくったもの</h4>
+      <p class="works__text">自然の音を聴いてリラックスできるアプリの再生画面</p>
+
+      <h4 class="works__sub-title-2">工夫したところ</h4>
+      <p class="works__text">・自然の音を聴けるアプリなので、メインカラーは派手すぎない色味にした</p>
+      <p class="works__text">・再生ボタンのアイコンは目の錯覚により右側が広く見えるので、真ん中より左に配置</p>
+      <p class="works__text">・再生時間の数字と「:」「-」記号とのバランスを意識してカーニングした</p>
+      <p class="works__text">・アイコンは角のないデザインで統一した</p>
+      <p class="works__text">・重要度が低い表記やボタンは不透明度を下げ、目立たせないようにした</p>
+      <p class="works__text">・再生時間の表記は小さく細いので、重要でない要素だが他の重要でない要素より不透明度を上げた</p>
+    </div>
+
+    <div class="works__container">
+      <h3 class="works__sub-title">#3 Review</h3>
+      <div class="works__img-container">
+        <img class="works__large-img" src="../images/redesigner_3-img.png">
+      </div>
+      <h4 class="works__sub-title-2">つくったもの</h4>
+      <p class="works__text">デリバリーサービスアプリの配達員の評価画面</p>
+
+      <h4 class="works__sub-title-2">工夫したところ</h4>
+      <p class="works__text">・評価のUIで一般的な「★」だと人によって基準が異なるので「良い」「普通」「悪い」のキャプションをつけた</p>
+      <p class="works__text">・5段階ではなく3段階評価にし、顔評価のボタンは顔のイラストにすることで、ユーザーを悩ませないようにした</p>
+      <p class="works__text">・評価についてのコメントは任意なのでスキップせずに評価をしてもらえるようにした</p>
+      <p class="works__text">・ボトムシートは他にしていた作業を中断せずに開けるので、評価がユーザーにとって邪魔なものになりにくい</p>
+      <p class="works__text">・配達員の写真を載せることで、評価時に配達時を思い出せるようにした</p>
+    </div>
+
+    <div class="works__container">
+      <h3 class="works__sub-title">#4 Video Chat</h3>
+      <div class="works__img-container">
+        <img class="works__large-img" src="../images/redesigner_4-img.png">
+      </div>
+      <h4 class="works__sub-title-2">つくったもの</h4>
+      <p class="works__text">チャットアプリのビデオ通話画面</p>
+
+      <h4 class="works__sub-title-2">工夫したところ</h4>
+      <p class="works__text">・なるべく相手の顔を画面いっぱいに表示できるように、通話画面ではヘッダーの背景をなくした</p>
+      <p class="works__text">・タップミスで切ることがないように、切るボタンはマイクとビデオのボタンと違うデザインにし、少し上に配置</p>
+      <p class="works__text">・トーク画面から通話が開始できるので通話することが決まってすぐに開始できる</p>
+      <p class="works__text">・通話モーダルの閉じるボタンは押しやすい右側に配置。オーバーレイ部分タップでも閉じることができる</p>
+      <p class="works__text">・マイク、ビデオアイコンは現在の状態を表している</p>
+    </div>
+
+    <div class="works__container">
+      <h3 class="works__sub-title">#5 Self Check</h3>
+      <div class="works__img-container">
+        <img class="works__large-img" src="../images/redesigner_5.1-img.png">
+        <img class="works__large-img" src="../images/redesigner_5.2-img.png">
+      </div>
+      <h4 class="works__sub-title-2">つくったもの</h4>
+      <p class="works__text">新型コロナウイルス初期症状チェックアプリ</p>
+
+      <h4 class="works__sub-title-2">工夫したところ</h4>
+      <p class="works__text">・あとどのくらいで結果が見れるのか視覚的に分かるように、常にプログレスバーと残りの質問数を表示</p>
+      <p class="works__text">・「はい」「いいえ」をタップ後すぐに次の質問に遷移せず、「次へ」をタップさせることでミスを減らせる</p>
+      <p class="works__text">・いつからかの選択は、iOS標準のドラムロール式セレクトボックスより見れる選択肢を増やし、容易にした</p>
+      <p class="works__text">・「次へ」ボタンはタップできないときはグレーアウトさせてタップ不可能なことをわかりやすくした</p>
+      <p class="works__text">・カードが重なっているデザインにすることで、次も質問が続くことがわかる</p>
+      <p class="works__text">・「前の質問に戻る」という文言にし、どこまで戻るボタンなのか明確にした</p>
+      <p class="works__text">・「前の質問に戻る」ボタンはタップミスを防ぐため「次へ」と離したところに置いた</p>
+      <p class="works__text">・メインカラーが青なので、青みがかったグレーを使用した</p>
+      <p class="works__text">・ベースカラーは白、メインカラーは明るめの青で、清潔感・信頼感のある配色にした</p>
+      <p class="works__text">・次の質問へ切り替わるときにカードが画面外へ飛んでいくアニメーションをつけたので、次の質問へ移ったことが分かり易くなる</p>
+      <p class="works__text">・最後の質問ではカードの重なりはなくしている</p>
+      <p class="works__text">・デフォルトの答えは「いいえ」なので、「いいえ」の人は「次へ」のみタップで遷移できるようにした</p>
+      <p class="works__text">・診断症状がなくても受診の目安を表記して、今後症状が出たときの対策を明記した</p>
+    </div>
+
+    <h3 class="works__sub-title">制作期間</h3>
+    <p class="works__text">2020年5月 1日1個5日間</p>
+  </div>
+  <footer class="footer">
+    <ul class="footer__sns">
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://twitter.com/avocadoneko/">
+          <i class="fab fa-twitter footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://www.instagram.com/avocadoneko/">
+          <i class="fab fa-instagram footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://github.com/avocadoneko">
+          <i class="fab fa-github footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+    <p class="footer__copyright">Copyright(C) avocadoneko</p>
+  </footer>
+  <script type="text/javascript" src="../js/main.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+</body>
+</html>

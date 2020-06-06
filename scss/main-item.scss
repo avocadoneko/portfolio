@@ -179,6 +179,11 @@
       background-color: #fff;
       border: solid 1px rgb(233, 233, 233);
     }
+
+    &--11 {
+      @extend %__works-img-container;
+      background-color: #fa6400;
+    }
   }
 
   &__works-img {

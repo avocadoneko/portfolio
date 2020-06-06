@@ -4,6 +4,10 @@
 .works {
   margin: 0 10%;
 
+  &__container {
+    margin-top: 104px;
+  }
+
   &__img-container {
     margin-top: 44px;
     text-align: center;
@@ -14,6 +18,10 @@
     height: auto;
     margin: 0 auto;
     text-align: center;
+  }
+
+  &__large-img {
+    width: 100%;
   }
 
   &__title {
