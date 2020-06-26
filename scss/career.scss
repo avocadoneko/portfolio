@@ -1,0 +1,97 @@
+@import 'variables';
+@import 'mixins';
+
+.career {
+  height: 600px;
+  position: relative;
+  padding-top: 64px;
+  margin-left: 12px;
+
+  &__line {
+    height: 500px;
+    width: 2px;
+    background-color: $main-color;
+  }
+
+  &__item {
+    // position: absolute;
+    // left: -12px;
+  }
+
+  %__dot {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -12px;
+    background-color: $main-color;
+    border-radius: 50px;
+  }
+
+  &__dot {
+    @extend %__dot;
+
+    &--1 {
+      @extend %__dot;
+      top: 64px;
+    }
+
+    &--2 {
+      @extend %__dot;
+      top: 188px;
+    }
+
+    &--3 {
+      @extend %__dot;
+      top: 316px;
+    }
+
+    &--4 {
+      @extend %__dot;
+      top: 444px;
+    }
+  }
+
+  %__text-container {
+    position: absolute;
+    left: 60px;
+  }
+
+  &__text-container {
+    @extend %__text-container;
+
+    &--1 {
+      @extend %__text-container;
+      top: 38px;
+    }
+
+    &--2 {
+      @extend %__text-container;
+      top: 162px;
+    }
+
+    &--3 {
+      @extend %__text-container;
+      top: 290px;
+    }
+
+    &--4 {
+      @extend %__text-container;
+      top: 418px;
+    }
+  }
+
+  %__text {
+    color: $text-color;
+    padding-bottom: 8px;
+  }
+
+  &__text {
+    @extend %__text;
+
+    &--large {
+      @extend %__text;
+      font-size: 2.0rem;
+      font-weight: bold;
+    }
+  }
+}

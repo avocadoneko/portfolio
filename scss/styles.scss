@@ -1,7 +1,9 @@
+@import 'career';
 @import 'footer';
 @import 'header-nav';
 @import 'modal';
 @import 'main-item';
+@import 'profile';
 @import 'variables';
 @import 'works';
 
@@ -13,10 +15,15 @@
 html {
   font-family: "Hiragino Kaku Gothic ProN", "M PLUS 1p";
   font-size: 62.5%;
-  color: #333;
+  color: $text-color;
   scroll-behavior: smooth;
 }
 
 body {
   font-size: 1.6rem;
+}
+
+.containers {
+  margin: 0 10%;
+  padding-top: 64px;
 }
