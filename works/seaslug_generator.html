@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/destyle.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header-nav">
+      <ul class="header-nav__home-container">
+        <li class="header-nav__home">
+          <a href="../index.html">avocadoneko</a>
+        </li>
+      </ul>
+      <ul class="header-nav__list">
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#About">About</a>
+        </li>
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#Works">Works</a>
+        </li>
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#Contact">Contact</a>
+        </li>
+        <li class="header-nav__mobile">
+          <a id="menu-btn" class="header-nav__item-link">Menu</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div id="modal" class="modal">
+    <div class="modal__content">
+      <div class="modal__close-btn">
+        <a id="modal-close-btn">×</a>
+      </div>
+      <div class="modal__body">
+        <ul class="modal__list">
+          <li class="modal__link">
+            <a id="about" href="../index.html#About">About</a>
+          </li>
+          <li class="modal__link">
+            <a id="works" href="../index.html#Works">Works</a>
+          </li>
+          <li class="modal__link">
+            <a id="contact" href="../index.html#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="works">
+    <div class="works__img-container">
+      <img class="works__img" src="../images/seaslug_generator-top.png">
+    </div>
+    <h2 class="works__title">うみうしメーカー</h2>
+    <a target="_blank" href="https://sea-slug-generator.s3-ap-northeast-1.amazonaws.com/index.html" class="works__link">
+      <span>遊んでみる</span>
+    </a>
+    <ul class="works__skill-list">
+      <li class="works__skill-item">
+        <span>HTML5</span>
+      </li>
+      <li class="works__skill-item">
+        <span>CSS3</span>
+      </li>
+      <li class="works__skill-item">
+        <span>Vue.js</span>
+      </li>
+      <li class="works__skill-item">
+        <span>AWS S3</span>
+      </li>
+      <li class="works__skill-item">
+        <span>イラスト</span>
+      </li>
+    </ul>
+    <h3 class="works__sub-title">なぜ作ったのか</h3>
+    <p class="works__text">・前からオリジナルのジェネレーターを作ってみたいと思っていた</p>
+    <p class="works__text">・Vue.js で何かをつくってみたかった</p>
+    <p class="works__text">・うみうしをもっといろんな人に知ってほしかった</p>
+    <p class="works__text">・うみうしならカラフルにできて見栄えがいいから</p>
+
+    <h3 class="works__sub-title">工夫したところ</h3>
+    <p class="works__text">・スマートフォンで遊ぶユーザーが多いため、モバイルファーストなレスポンシブデザインにした</p>
+    <p class="works__text">・Vue コンポーネントを用いてDRYにした</p>
+    <p class="works__text">・モーダル上でcanvasに描画されたものを1枚の画像にして、スマートフォンでも保存できるようにした</p>
+    <p class="works__text">・完成ボタンはユーザーが探しやすいように、常に表示されるようにした</p>
+    <p class="works__text">・canvas に重ねた画像が想定通りの重ね順になるように、全て読み込んでから表示させるようにした</p>
+
+    <h3 class="works__sub-title">苦労したところ</h3>
+    <p class="works__text">・別オリジンの画像をURL化するためにCORSの設定が必要だったこと</p>
+
+    <h3 class="works__sub-title">制作期間</h3>
+    <p class="works__text">2020年5月（約1週間）</p>
+
+    <h3 class="works__sub-title">社内LTで発表したときの資料</h3>
+    <div class="works__pdf-container">
+      <iframe class="works__pdf" src="../images/seaslug_generator-LT.pdf"></iframe>
+      <a target=”_blank” href="../images/seaslug_generator-LT.pdf" class="works__link works__pdf-link">
+        <span>PDFを開く</span>
+      </a>
+    </div>
+  </div>
+  <footer class="footer">
+    <ul class="footer__sns">
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://twitter.com/avocadoneko/">
+          <i class="fab fa-twitter footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://www.instagram.com/avocadoneko/">
+          <i class="fab fa-instagram footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://github.com/avocadoneko">
+          <i class="fab fa-github footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+    <p class="footer__copyright">Copyright(C) avocadoneko</p>
+  </footer>
+  <script type="text/javascript" src="../js/main.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+</body>
+</html>

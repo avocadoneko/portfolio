@@ -1,0 +1,75 @@
+@import 'variables';
+@import 'mixins';
+
+.header {
+  background: $main-gradation;
+  width: 100%;
+}
+
+.header-nav {
+  height: 96px;
+  margin: 0 32px;
+  display: flex;
+  justify-content: space-between;
+
+  &__home-container {
+    width: 280px;
+  }
+
+  &__home {
+    position: relative;
+    height: 61px;
+  }
+
+  &__home a {
+    font-size: 24px;
+    font-family: 'Moon';
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  &__list {
+    float: right;
+    width: 220px;
+  }
+
+  &__item {
+    height: 61px;
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    position: relative;
+    @include max-screen($breakpoint-mobile) {
+      display: none;
+    }
+  }
+
+  &__mobile {
+    height: 61px;
+    width: 33.3%;
+    margin-left: 96px;
+    text-align: center;
+    position: relative;
+    display: none;
+    @include max-screen($breakpoint-mobile) {
+      display: block;
+    }
+  }
+
+  a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: inline-block;
+    color: $text-color-white;
+    cursor: pointer;
+    cursor: hand;
+    vertical-align: bottom;
+    &:hover {
+      opacity: 0.5;
+      transition: opacity 0.2s ease-in 0.1s;
+    }
+  }
+}
