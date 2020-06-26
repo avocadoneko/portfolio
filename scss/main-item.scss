@@ -57,6 +57,14 @@
     color: $text-color;
   }
 
+  &__link {
+    @include linkBtn;
+  }
+
+  &__link span {
+    @include linkBtnText;
+  }
+
   &__skill-list {
     @include max-screen($breakpoint-mobile) {
       margin-left: 24px;

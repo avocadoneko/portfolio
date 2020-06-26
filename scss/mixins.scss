@@ -1,5 +1,28 @@
+@import 'variables';
+
 @mixin max-screen($break-point) {
   @media screen and (max-width: $break-point) {
     @content
   }
+}
+
+@mixin linkBtn {
+  margin-top: 16px;
+  background-color: $main-color;
+  border-radius: 26px;
+  display: inline-block;
+  height: 44px;
+  padding: 0 32px;
+  text-align: center;
+  &:hover {
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in 0.1s;
+  }
+}
+
+@mixin linkBtnText {
+  color: $text-color-white;
+  font-size: 1.6rem;
+  line-height: 44px;
+  text-align: center;
 }
