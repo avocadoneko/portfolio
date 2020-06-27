@@ -399,7 +399,8 @@
   .works__text {
     color: #4D4D5C;
     margin: 0 auto;
-    margin-top: 16px; }
+    margin-top: 16px;
+    font-family: 'Noto Sans JP'; }
   .works__pdf-container {
     margin-top: 16px; }
   .works__pdf {
