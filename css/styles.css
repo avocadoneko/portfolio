@@ -322,7 +322,7 @@
 .profile__text {
   line-height: 3rem;
   padding-top: 4px;
-  padding-bottom: 32px;
+  padding-bottom: 8px;
   font-family: 'Noto Sans JP'; }
   .profile__text--large {
     padding-top: 24px;
@@ -435,5 +435,8 @@ body {
 .containers {
   margin: 0 10%;
   padding-top: 64px; }
+
+.pb-3 {
+  padding-bottom: 30px; }
 
 /*# sourceMappingURL=styles.css.map */
