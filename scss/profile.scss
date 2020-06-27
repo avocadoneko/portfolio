@@ -12,15 +12,17 @@
 
   &__text {
     line-height: 3rem;
-    padding-top: 8px;
+    padding-top: 4px;
+    padding-bottom: 32px;
     font-family: 'Noto Sans JP';
 
     &--large {
       padding-top: 24px;
       font-weight: bold;
       font-size: 1.8rem;
-      border-bottom: solid $sub-color;
-      display: inline-block;
+      background:linear-gradient(transparent 90%, $sub-color 0%);
+      line-height: 3.8rem;
+      display: inline;
       font-family: 'Noto Sans JP';
     }
   }

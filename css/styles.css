@@ -321,14 +321,16 @@
   padding-bottom: 16px; }
 .profile__text {
   line-height: 3rem;
-  padding-top: 8px;
+  padding-top: 4px;
+  padding-bottom: 32px;
   font-family: 'Noto Sans JP'; }
   .profile__text--large {
     padding-top: 24px;
     font-weight: bold;
     font-size: 1.8rem;
-    border-bottom: solid #E3E3F8;
-    display: inline-block;
+    background: linear-gradient(transparent 90%, #E3E3F8 0%);
+    line-height: 3.8rem;
+    display: inline;
     font-family: 'Noto Sans JP'; }
 .profile__text a {
   color: #6E5AEF; }
