@@ -400,7 +400,8 @@
     color: #4D4D5C;
     margin: 0 auto;
     margin-top: 16px;
-    font-family: 'Noto Sans JP'; }
+    font-family: 'Noto Sans JP';
+    line-height: 3rem; }
   .works__pdf-container {
     margin-top: 16px; }
   .works__pdf {
@@ -420,6 +421,41 @@
     @media screen and (max-width: 640px) {
       .works__pdf-link {
         display: block; } }
+  .works__colors {
+    display: flex; }
+  .works__colors p {
+    margin-right: 24px;
+    margin-top: 40px;
+    display: inline-block; }
+  .works .works__color, .works .works__color--main, .works .works__color--sub {
+    margin: 24px 16px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px; }
+  .works__color--main {
+    background-color: #6E5AEF; }
+  .works__color--sub {
+    background-color: #E3E3F8; }
+  .works__fonts {
+    margin-top: 24px;
+    background-color: #E3E3F8;
+    border-radius: 24px;
+    padding: 20px 32px; }
+  .works__font-item {
+    padding: 24px 16px; }
+  .works .works__font--moon, .works .works__font--mplus, .works .works__font--notosans {
+    padding-top: 16px; }
+  .works__font--moon {
+    font-size: 3.2rem;
+    font-family: 'Moon';
+    font-weight: bold;
+    letter-spacing: 2px; }
+  .works__font--mplus {
+    font-size: 2.4rem;
+    font-family: 'M PLUS 1p'; }
+  .works__font--notosans {
+    font-size: 2.4rem;
+    font-family: 'Noto Sans JP'; }
 
 @font-face {
   font-family: 'Moon';

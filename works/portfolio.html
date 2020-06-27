@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/destyle.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header-nav">
+      <ul class="header-nav__home-container">
+        <li class="header-nav__home">
+          <a href="../index.html">avocadoneko</a>
+        </li>
+      </ul>
+      <ul class="header-nav__list">
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#About">About</a>
+        </li>
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#Works">Works</a>
+        </li>
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#Contact">Contact</a>
+        </li>
+        <li class="header-nav__mobile">
+          <a id="menu-btn" class="header-nav__item-link">Menu</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div id="modal" class="modal">
+    <div class="modal__content">
+      <div class="modal__close-btn">
+        <a id="modal-close-btn">×</a>
+      </div>
+      <div class="modal__body">
+        <ul class="modal__list">
+          <li class="modal__link">
+            <a id="about" href="../index.html#About">About</a>
+          </li>
+          <li class="modal__link">
+            <a id="works" href="../index.html#Works">Works</a>
+          </li>
+          <li class="modal__link">
+            <a id="contact" href="../index.html#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="works">
+    <div class="works__img-container">
+      <img class="works__img" src="../images/portfolio-top.png">
+    </div>
+    <h2 class="works__title">ポートフォリオサイト</h2>
+    <ul class="works__skill-list">
+      <li class="works__skill-item">
+        <span>Figma</span>
+      </li>
+      <li class="works__skill-item">
+        <span>HTML5</span>
+      </li>
+      <li class="works__skill-item">
+        <span>CSS3(SCSS)</span>
+      </li>
+      <li class="works__skill-item">
+        <span>JavaScript</span>
+      </li>
+      <li class="works__skill-item">
+        <span>イラスト</span>
+      </li>
+    </ul>
+    <h3 class="works__sub-title"></h3>
+    <p class="works__text">
+      自分を知ってもらうため、自分がこれまでにつくってきた作品を人に見せるためにポートフォリオサイトを作成した。
+    </p>
+
+    <h3 class="works__sub-title">使用した色</h3>
+    <div class="works__colors">
+      <div class="works__color--main"></div>
+      <p>#6E5AEF</p>
+      <div class="works__color--sub"></div>
+      <p>#E3E3F8</p>
+    </div>
+    <p class="works__text">
+      シンプルにするため、使用色は少なめにした。ポートフォリオサイトなので、自分が好きな紫色をベースにした。
+    </p>
+
+    <h3 class="works__sub-title">使用したフォント</h3>
+    <div class="works__fonts">
+      <div class="works__font-item">
+        <p class="works__font">Moon 2.0</p>
+        <p class="works__font--moon">Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="works__font-item">
+        <p class="works__font">M PLUS 1p</p>
+        <p class="works__font--mplus">美しいタイポグラフィ</p>
+      </div>
+      <div class="works__font-item">
+        <p class="works__font">Noto Sans JP</p>
+        <p class="works__font--notosans">美しいタイポグラフィ</p>
+      </div>
+    </div>
+
+    <h3 class="works__sub-title">工夫したところ</h3>
+    <p class="works__text">・BEM記法でCSSを設計してみた</p>
+    <p class="works__text">・パスで描いた猫のキャラクターをアニメーションさせた</p>
+    <p class="works__text">・スマートフォンでも見れるようにレスポンシブデザインにした</p>
+    <p class="works__text">・押せるボタンは全てのページで同じデザインにし、押せることがわかりやすくした</p>
+    <p class="works__text">・スマートフォンではナビゲーションメニューを開くとモーダルが出現するようにした</p>
+
+    <h3 class="works__sub-title">所感</h3>
+    <p class="works__text">
+      ポートフォリオサイトは何回かつくったことがあるが、メンテナンスができずに放置してしまうことが多かった。
+      そこで今回は初めてSCSSを書くことにした。
+      変数で色やブレークポイントを管理できたり、共通のスタイルを@mixinで定義できたりするので、メンテナンスがしやすいと思った。
+    </p>
+
+    <h3 class="works__sub-title">制作期間</h3>
+    <p class="works__text">2020年6月（約5日）</p>
+
+  </div>
+  <footer class="footer">
+    <ul class="footer__sns">
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://twitter.com/avocadoneko/">
+          <i class="fab fa-twitter footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://www.instagram.com/avocadoneko/">
+          <i class="fab fa-instagram footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://github.com/avocadoneko">
+          <i class="fab fa-github footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+    <p class="footer__copyright">Copyright(C) avocadoneko</p>
+  </footer>
+  <script type="text/javascript" src="../js/main.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+</body>
+
+</html>

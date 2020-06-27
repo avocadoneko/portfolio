@@ -77,6 +77,7 @@
     margin: 0 auto;
     margin-top: 16px;
     font-family: 'Noto Sans JP';
+    line-height: 3rem;
   }
 
   &__pdf-container {
@@ -103,4 +104,73 @@
       display: block;
     }
   }
+
+  &__colors {
+    display: flex;
+  }
+
+  &__colors p {
+    margin-right: 24px;
+    margin-top: 40px;
+    display: inline-block;
+  }
+
+  %__color {
+    margin: 24px 16px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+  }
+
+  &__color {
+    @extend %__color;
+
+    &--main {
+      @extend %__color;
+      background-color: $main-color;
+    }
+
+    &--sub {
+      @extend %__color;
+      background-color: $sub-color;
+    }
+  }
+
+  &__fonts {
+    margin-top: 24px;
+    background-color: $sub-color;
+    border-radius: 24px;
+    padding: 20px 32px;
+  }
+
+  &__font-item {
+    padding: 24px 16px;
+  }
+
+  %__font {
+    padding-top: 16px;
+  }
+
+  &__font {
+    &--moon {
+      @extend %__font;
+      font-size: 3.2rem;
+      font-family:'Moon';
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    &--mplus {
+      @extend %__font;
+      font-size: 2.4rem;
+      font-family:'M PLUS 1p';
+    }
+
+    &--notosans {
+      @extend %__font;
+      font-size: 2.4rem;
+      font-family:'Noto Sans JP';
+    }
+  }
+
 }
