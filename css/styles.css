@@ -214,8 +214,8 @@
       .main-item__text-container {
         margin: 32px 32px 0; } }
   .main-item__text {
-    line-height: 21px;
-    color: #4D4D5C; }
+    line-height: 3rem;
+    padding-top: 4px; }
   .main-item__link {
     margin-top: 16px;
     background-color: #6E5AEF;
