@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/destyle.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header-nav">
+      <ul class="header-nav__home-container">
+        <li class="header-nav__home">
+          <a href="../index.html">avocadoneko</a>
+        </li>
+      </ul>
+      <ul class="header-nav__list">
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#About">About</a>
+        </li>
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#Works">Works</a>
+        </li>
+        <li class="header-nav__item">
+          <a class="header-nav__item-link" href="../index.html#Contact">Contact</a>
+        </li>
+        <li class="header-nav__mobile">
+          <a id="menu-btn" class="header-nav__item-link">Menu</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div id="modal" class="modal">
+    <div class="modal__content">
+      <div class="modal__close-btn">
+        <a id="modal-close-btn">×</a>
+      </div>
+      <div class="modal__body">
+        <ul class="modal__list">
+          <li class="modal__link">
+            <a id="about" href="../index.html#About">About</a>
+          </li>
+          <li class="modal__link">
+            <a id="works" href="../index.html#Works">Works</a>
+          </li>
+          <li class="modal__link">
+            <a id="contact" href="../index.html#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="works">
+    <div class="works__img-container">
+      <img class="works__large-img" src="../images/yondara/visual.png">
+    </div>
+    <h2 class="works__title">読書記録アプリ Yondara</h2>
+    <ul class="works__skill-list">
+      <li class="works__skill-item">
+        <span>UI</span>
+      </li>
+      <li class="works__skill-item">
+        <span>UX</span>
+      </li>
+      <li class="works__skill-item">
+        <span>Figma</span>
+      </li>
+    </ul>
+    <h3 class="works__sub-title"></h3>
+    <p class="works__text">
+      読んだ本の冊数や感想の記録ができるアプリは既にたくさんある。しかし、読むだけでは、本から学んだことを活かすことができない。
+      読書で大切なのは読んだ量ではなく、読んだことをいかに日々の行動に活かせるかである。
+    </p>
+    <p class="works__text">
+      そこで、読んだ本から学んだことを箇条書きでアウトプットし、それを読み返すことができるアプリをデザインした。
+    </p>
+
+    <h3 class="works__sub-title">競合の調査</h3>
+    <div class="works__img-container">
+      <img class="works__large-img" src="../images/yondara/rivals.png">
+    </div>
+
+    <h3 class="works__sub-title">コンセプトシート</h3>
+    <div class="works__img-container">
+      <img class="works__large-img box-shadow" src="../images/yondara/conceptSheet.png">
+    </div>
+    <p class="works__text">
+      ・メモはアプリ内で「よみメモ」という概念にする
+    </p>
+    <p class="works__text">
+      ・本を読んだら終わり、ではなく読んだらメモを書く習慣をつけて欲しい気持ちを込めて、サービス名はYondaraにした
+    </p>
+
+    <h3 class="works__sub-title">ワイヤーフレーム</h3>
+    <div class="works__img-container">
+      <img class="works__large-img box-shadow" src="../images/yondara/wireframe.png">
+    </div>
+    <p class="works__text">
+      ホームタブ<br>
+      ・今日書いたよみメモの数を表示<br>
+      ・現在読んでいる本と最新のよみメモを表示<br>
+      ・本の登録とよみメモの追加ができる<br>
+    </p>
+    <p class="works__text">
+      よみメモタブ（本一覧）<br>
+      ・登録されている本とよみメモの数を表示→紐づいたよみメモの数が多いほど本の画像が大きくなる<br>
+      ・一定時間読み返されていないよみメモがあると通知される<br>
+      ・よみメモの検索ができる<br>
+      ・「読み終わった」「読んでる」で分類されている<br>
+    </p>
+    <p class="works__text">
+      よみメモタブ（本詳細）<br>
+      ・本のタイトル・著者などの詳細情報が見れる<br>
+      ・本のステータスを更新できる<br>
+      ・全よみメモの追加、閲覧ができる<br>
+    </p>
+
+    <h3 class="works__sub-title">つくった画面</h3>
+    <div class="works__img-container">
+      <img class="works__large-img box-shadow" src="../images/yondara/screen.png">
+    </div>
+
+    <h3 class="works__sub-title">使用した色</h3>
+    <div class="works__colors">
+      <div class="works__color--0D1A47"></div>
+      <p>#0D1A47</p>
+      <div class="works__color--2B4086"></div>
+      <p>#2B4086</p>
+    </div>
+    <div class="works__colors">
+      <div class="works__color--AADFDC"></div>
+      <p>#AADFDC</p>
+      <div class="works__color--FDB28A"></div>
+      <p>#FDB28A</p>
+    </div>
+    <p class="works__text">
+      ターゲットユーザーは仕事終わりの夜に本を読むので、画面全体の背景を暗い色にした。
+    </p>
+
+    <h3 class="works__sub-title">工夫したところ</h3>
+    <div class="works__originality-container">
+      <div class="works__img-container works__originality">
+        <img class="works__img" src="../images/yondara/originality_01.png">
+        <p class="works__text">アクティブなタブは2色使いにした</p>
+      </div>
+      <div class="works__img-container works__originality">
+        <img class="works__img" src="../images/yondara/originality_02.png">
+        <p class="works__text">よみメモのの数には他と違うフォントを用いた</p>
+      </div>
+      <div class="works__img-container works__originality">
+        <img class="works__img" src="../images/yondara/originality_03.png">
+        <p class="works__text">よみメモが0件の本の表示に拘った</p>
+      </div>
+      <div class="works__img-container works__originality">
+        <img class="works__img" src="../images/yondara/originality_04.png">
+        <p class="works__text">本のステータス選択は1タップでできるようにスイッチUIにした</p>
+      </div>
+    </div>
+
+    <h3 class="works__sub-title">制作期間</h3>
+    <p class="works__text">2020年7月（1週間）</p>
+
+  </div>
+  <footer class="footer">
+    <ul class="footer__sns">
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://twitter.com/avocadoneko/">
+          <i class="fab fa-twitter footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://www.instagram.com/avocadoneko/">
+          <i class="fab fa-instagram footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+      <li class="footer__sns-item">
+        <a class="footer__sns-link" href="https://github.com/avocadoneko">
+          <i class="fab fa-github footer__sns-img fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+    <p class="footer__copyright">Copyright(C) avocadoneko</p>
+  </footer>
+  <script type="text/javascript" src="../js/main.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+</body>
+
+</html>

@@ -192,6 +192,11 @@
       @extend %__works-img-container;
       background-color: #fa6400;
     }
+
+    &--12 {
+      @extend %__works-img-container;
+      background-color: #0D1A47;
+    }
   }
 
   &__works-img {
