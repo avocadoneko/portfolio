@@ -60,7 +60,7 @@
     height: 48px;
     width: 48px;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 12px;
     background-color: #6E5AEF; }
     .footer__sns-link:hover {
       opacity: 0.5;
