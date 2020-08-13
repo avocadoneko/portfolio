@@ -351,6 +351,8 @@
     height: auto;
     margin: 0 auto;
     text-align: center; }
+  .works__medium-img {
+    width: 70%; }
   .works__large-img {
     width: 100%; }
   .works__title {
