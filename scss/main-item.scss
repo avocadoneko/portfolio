@@ -197,6 +197,11 @@
       @extend %__works-img-container;
       background-color: #0D1A47;
     }
+
+    &--13 {
+      @extend %__works-img-container;
+      background-color: #F7F6F2;
+    }
   }
 
   &__works-img {
