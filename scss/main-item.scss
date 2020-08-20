@@ -202,6 +202,11 @@
       @extend %__works-img-container;
       background-color: #F7F6F2;
     }
+
+    &--14 {
+      @extend %__works-img-container;
+      background-color: #53637C;
+    }
   }
 
   &__works-img {
