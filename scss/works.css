@@ -1,0 +1,249 @@
+.works {
+  margin: 0 10%;
+}
+
+.works__container {
+  margin-top: 104px;
+}
+
+.works__img-container {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.works__img {
+  width: 320px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.works__medium-img {
+  width: 70%;
+}
+
+.works__large-img {
+  width: 100%;
+}
+
+.works__title {
+  color: #333;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.works__link {
+  margin-top: 16px;
+  background-color: #6E5AEF;
+  border-radius: 26px;
+  display: inline-block;
+  height: 44px;
+  padding: 0 32px;
+  text-align: center;
+}
+
+.works__link:hover {
+  opacity: 0.5;
+  -webkit-transition: opacity 0.2s ease-in 0.1s;
+  transition: opacity 0.2s ease-in 0.1s;
+}
+
+.works__link span {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 44px;
+  text-align: center;
+}
+
+.works__sub-title {
+  color: #333;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+
+.works__sub-title-2 {
+  color: #333;
+  font-size: 2.0rem;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.works__skill-list {
+  margin-top: 32px;
+}
+
+.works__skill-item {
+  background-color: #E3E3F8;
+  border-radius: 50px;
+  display: inline-block;
+  height: 32px;
+  margin: 16px 8px 0 0;
+}
+
+.works__skill-item span {
+  line-height: 32px;
+  padding: 0 24px;
+}
+
+.works__text {
+  color: #333;
+  margin: 0 auto;
+  margin-top: 16px;
+  font-family: 'Noto Sans JP';
+  line-height: 3rem;
+}
+
+.works__pdf-container {
+  margin-top: 16px;
+}
+
+.works__pdf {
+  width: 100%;
+  height: 80vh;
+}
+
+@media screen and (max-width: 980px) {
+  .works__pdf {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .works__pdf {
+    display: none;
+  }
+}
+
+.works__pdf-link {
+  display: none;
+}
+
+@media screen and (max-width: 980px) {
+  .works__pdf-link {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .works__pdf-link {
+    display: block;
+  }
+}
+
+.works__colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.works__colors p {
+  margin-right: 24px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.works .works__color, .works .works__color--main, .works .works__color--sub, .works .works__color--0D1A47, .works .works__color--2B4086, .works .works__color--AADFDC, .works .works__color--FDB28A, .works .works__color--53637C, .works .works__color--FCFCFC, .works .works__color--D65A3C, .works .works__color--242629 {
+  margin: 24px 16px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+}
+
+.works__color--main {
+  background-color: #6E5AEF;
+}
+
+.works__color--sub {
+  background-color: #E3E3F8;
+}
+
+.works__color--0D1A47 {
+  background-color: #0D1A47;
+}
+
+.works__color--2B4086 {
+  background-color: #2B4086;
+}
+
+.works__color--AADFDC {
+  background-color: #AADFDC;
+}
+
+.works__color--FDB28A {
+  background-color: #FDB28A;
+}
+
+.works__color--53637C {
+  background-color: #53637C;
+}
+
+.works__color--FCFCFC {
+  background-color: #FCFCFC;
+}
+
+.works__color--D65A3C {
+  background-color: #D65A3C;
+}
+
+.works__color--242629 {
+  background-color: #242629;
+}
+
+.works__fonts {
+  margin-top: 24px;
+  background-color: #E3E3F8;
+  border-radius: 24px;
+  padding: 20px 32px;
+}
+
+.works__font-item {
+  padding: 24px 16px;
+}
+
+.works .works__font--moon, .works .works__font--mplus, .works .works__font--notosans {
+  padding-top: 16px;
+}
+
+.works__font--moon {
+  font-size: 3.2rem;
+  font-family: 'Moon';
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.works__font--mplus {
+  font-size: 2.4rem;
+  font-family: 'M PLUS 1p';
+}
+
+.works__font--notosans {
+  font-size: 2.4rem;
+  font-family: 'Noto Sans JP';
+}
+
+.works__originality-container {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  .works__originality-container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.works__originality {
+  padding-bottom: 40px;
+}
+/*# sourceMappingURL=works.css.map */

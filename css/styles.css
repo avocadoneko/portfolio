@@ -435,7 +435,7 @@
     margin-right: 24px;
     margin-top: 40px;
     display: inline-block; }
-  .works .works__color, .works .works__color--main, .works .works__color--sub, .works .works__color--0D1A47, .works .works__color--2B4086, .works .works__color--AADFDC, .works .works__color--FDB28A {
+  .works .works__color, .works .works__color--main, .works .works__color--sub, .works .works__color--0D1A47, .works .works__color--2B4086, .works .works__color--AADFDC, .works .works__color--FDB28A, .works .works__color--53637C, .works .works__color--FCFCFC, .works .works__color--D65A3C, .works .works__color--242629 {
     margin: 24px 16px;
     width: 48px;
     height: 48px;
@@ -452,6 +452,14 @@
     background-color: #AADFDC; }
   .works__color--FDB28A {
     background-color: #FDB28A; }
+  .works__color--53637C {
+    background-color: #53637C; }
+  .works__color--FCFCFC {
+    background-color: #FCFCFC; }
+  .works__color--D65A3C {
+    background-color: #D65A3C; }
+  .works__color--242629 {
+    background-color: #242629; }
   .works__fonts {
     margin-top: 24px;
     background-color: #E3E3F8;
