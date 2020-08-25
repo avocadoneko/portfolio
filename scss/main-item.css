@@ -153,7 +153,7 @@
   width: 90%;
 }
 
-.main-item .main-item__works-img-container, .main-item .main-item__works-img-container--1, .main-item .main-item__works-img-container--2, .main-item .main-item__works-img-container--3, .main-item .main-item__works-img-container--4, .main-item .main-item__works-img-container--5, .main-item .main-item__works-img-container--6, .main-item .main-item__works-img-container--7, .main-item .main-item__works-img-container--8, .main-item .main-item__works-img-container--9, .main-item .main-item__works-img-container--10, .main-item .main-item__works-img-container--11, .main-item .main-item__works-img-container--12, .main-item .main-item__works-img-container--13, .main-item .main-item__works-img-container--14 {
+.main-item .main-item__works-img-container, .main-item .main-item__works-img-container--1, .main-item .main-item__works-img-container--2, .main-item .main-item__works-img-container--3, .main-item .main-item__works-img-container--4, .main-item .main-item__works-img-container--5, .main-item .main-item__works-img-container--6, .main-item .main-item__works-img-container--7, .main-item .main-item__works-img-container--8, .main-item .main-item__works-img-container--9, .main-item .main-item__works-img-container--10, .main-item .main-item__works-img-container--11, .main-item .main-item__works-img-container--12, .main-item .main-item__works-img-container--13, .main-item .main-item__works-img-container--14, .main-item .main-item__works-img-container--15 {
   width: 100%;
   height: 100%;
   border-radius: 12px;
@@ -161,7 +161,7 @@
   display: block;
 }
 
-.main-item .main-item__works-img-container:hover, .main-item .main-item__works-img-container--1:hover, .main-item .main-item__works-img-container--2:hover, .main-item .main-item__works-img-container--3:hover, .main-item .main-item__works-img-container--4:hover, .main-item .main-item__works-img-container--5:hover, .main-item .main-item__works-img-container--6:hover, .main-item .main-item__works-img-container--7:hover, .main-item .main-item__works-img-container--8:hover, .main-item .main-item__works-img-container--9:hover, .main-item .main-item__works-img-container--10:hover, .main-item .main-item__works-img-container--11:hover, .main-item .main-item__works-img-container--12:hover, .main-item .main-item__works-img-container--13:hover, .main-item .main-item__works-img-container--14:hover {
+.main-item .main-item__works-img-container:hover, .main-item .main-item__works-img-container--1:hover, .main-item .main-item__works-img-container--2:hover, .main-item .main-item__works-img-container--3:hover, .main-item .main-item__works-img-container--4:hover, .main-item .main-item__works-img-container--5:hover, .main-item .main-item__works-img-container--6:hover, .main-item .main-item__works-img-container--7:hover, .main-item .main-item__works-img-container--8:hover, .main-item .main-item__works-img-container--9:hover, .main-item .main-item__works-img-container--10:hover, .main-item .main-item__works-img-container--11:hover, .main-item .main-item__works-img-container--12:hover, .main-item .main-item__works-img-container--13:hover, .main-item .main-item__works-img-container--14:hover, .main-item .main-item__works-img-container--15:hover {
   opacity: 0.5;
   -webkit-transition: opacity 0.2s ease-in 0.1s;
   transition: opacity 0.2s ease-in 0.1s;
@@ -225,6 +225,10 @@
 
 .main-item__works-img-container--14 {
   background-color: #53637C;
+}
+
+.main-item__works-img-container--15 {
+  background-color: #6CAD76;
 }
 
 .main-item__works-img {

@@ -147,7 +147,7 @@
   display: inline-block;
 }
 
-.works .works__color, .works .works__color--main, .works .works__color--sub, .works .works__color--0D1A47, .works .works__color--2B4086, .works .works__color--AADFDC, .works .works__color--FDB28A, .works .works__color--53637C, .works .works__color--FCFCFC, .works .works__color--D65A3C, .works .works__color--242629 {
+.works .works__color, .works .works__color--main, .works .works__color--sub, .works .works__color--0D1A47, .works .works__color--2B4086, .works .works__color--AADFDC, .works .works__color--FDB28A, .works .works__color--53637C, .works .works__color--FCFCFC, .works .works__color--D65A3C, .works .works__color--242629, .works .works__color--6CAD76, .works .works__color--FEFEFE, .works .works__color--E1DFDD, .works .works__color--BA706C {
   margin: 24px 16px;
   width: 48px;
   height: 48px;
@@ -192,6 +192,22 @@
 
 .works__color--242629 {
   background-color: #242629;
+}
+
+.works__color--6CAD76 {
+  background-color: #6CAD76;
+}
+
+.works__color--FEFEFE {
+  background-color: #FEFEFE;
+}
+
+.works__color--E1DFDD {
+  background-color: #E1DFDD;
+}
+
+.works__color--BA706C {
+  background-color: #BA706C;
 }
 
 .works__fonts {

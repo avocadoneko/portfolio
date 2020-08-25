@@ -178,6 +178,26 @@
       @extend %__color;
       background-color: #242629;
     }
+
+    &--6CAD76 {
+      @extend %__color;
+      background-color: #6CAD76;
+    }
+
+    &--FEFEFE {
+      @extend %__color;
+      background-color: #FEFEFE;
+    }
+
+    &--E1DFDD {
+      @extend %__color;
+      background-color: #E1DFDD;
+    }
+
+    &--BA706C {
+      @extend %__color;
+      background-color: #BA706C;
+    }
   }
 
   &__fonts {

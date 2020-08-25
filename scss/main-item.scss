@@ -207,6 +207,11 @@
       @extend %__works-img-container;
       background-color: #53637C;
     }
+
+    &--15 {
+      @extend %__works-img-container;
+      background-color: #6CAD76;
+    }
   }
 
   &__works-img {
