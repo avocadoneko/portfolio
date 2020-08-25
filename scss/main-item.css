@@ -5,7 +5,7 @@
 .main-item {
   letter-spacing: 2px;
   text-align: center;
-  margin-top: 96px;
+  margin-top: 192px;
 }
 
 @media screen and (max-width: 640px) {
@@ -17,7 +17,8 @@
 }
 
 .main-item__title {
-  margin-top: 96px;
+  margin-top: -96px;
+  padding-top: 96px;
   font-family: 'Moon';
   font-style: normal;
   font-weight: bold;

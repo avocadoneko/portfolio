@@ -1,0 +1,88 @@
+.header {
+  background: linear-gradient(303deg, #8A78FA 5.82%, #788DFA 94.77%);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.header-nav {
+  height: 96px;
+  margin: 0 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-nav__home-container {
+  width: 280px;
+}
+
+.header-nav__home {
+  position: relative;
+  height: 61px;
+}
+
+.header-nav__home a {
+  font-size: 24px;
+  font-family: 'Moon';
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.header-nav__list {
+  float: right;
+  width: 220px;
+}
+
+.header-nav__item {
+  height: 61px;
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+@media screen and (max-width: 640px) {
+  .header-nav__item {
+    display: none;
+  }
+}
+
+.header-nav__mobile {
+  height: 61px;
+  width: 33.3%;
+  margin-left: 96px;
+  text-align: center;
+  position: relative;
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .header-nav__mobile {
+    display: block;
+  }
+}
+
+.header-nav a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  cursor: hand;
+  vertical-align: bottom;
+}
+
+.header-nav a:hover {
+  opacity: 0.5;
+  -webkit-transition: opacity 0.2s ease-in 0.1s;
+  transition: opacity 0.2s ease-in 0.1s;
+}
+/*# sourceMappingURL=header-nav.css.map */
